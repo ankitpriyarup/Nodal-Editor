@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f080dda94175ae44e8a4b4ca51db25f7, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: 
+  n:
+  - {fileID: 114974633452512902}
+  - {fileID: 114190744976418196}
+  - {fileID: 114768141064565728}
+  - {fileID: 114366697110003074}
+  index: 4
+--- !u!114 &114190744976418196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed302e86a4ad37948b7544fdb404db4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1
+  winRect:
+    serializedVersion: 2
+    x: 211
+    y: 52
+    width: 220
+    height: 132
+  winTitle: MAIN MENU
+  winIcon: {fileID: 2800000, guid: f1ace7fbea966fa47a6cb297f24a73e0, type: 3}
+  curveJoinR: {fileID: 2800000, guid: de1b753b376f37b4cb23e41cf00375d8, type: 3}
+  curveJoinL: {fileID: 2800000, guid: 689904b2c9f1281448b88d019ad37036, type: 3}
+  ifConnected: 0
+  type: 1
+  rootNode: {fileID: 114974633452512902}
+  attributes:
+  - node: {fileID: 114366697110003074}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 45
+      width: 170
+      height: 17
+    txt: SINGLEPLAYER
+  - node: {fileID: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 62
+      width: 170
+      height: 17
+    txt: MULTIPLAYER
+  - node: {fileID: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 79
+      width: 170
+      height: 17
+    txt: OPTIONS
+  - node: {fileID: 114768141064565728}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 96
+      width: 170
+      height: 17
+    txt: QUIT
+  connectionType: 0
+--- !u!114 &114366697110003074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed302e86a4ad37948b7544fdb404db4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  winRect:
+    serializedVersion: 2
+    x: 513
+    y: 259
+    width: 180
+    height: 96
+  winTitle: SINGLE PLAYER
+  winIcon: {fileID: 2800000, guid: f1ace7fbea966fa47a6cb297f24a73e0, type: 3}
+  curveJoinR: {fileID: 2800000, guid: de1b753b376f37b4cb23e41cf00375d8, type: 3}
+  curveJoinL: {fileID: 2800000, guid: 689904b2c9f1281448b88d019ad37036, type: 3}
+  ifConnected: 0
+  type: 3
+  rootNode: {fileID: 114190744976418196}
+  attributes:
+  - node: {fileID: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 45
+      width: 130
+      height: 17
+    txt: CANCEL
+  - node: {fileID: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 62
+      width: 130
+      height: 17
+    txt: START GAME
+  connectionType: 0
+--- !u!114 &114768141064565728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed302e86a4ad37948b7544fdb404db4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
+  winRect:
+    serializedVersion: 2
+    x: 499
+    y: 30
+    width: 180
+    height: 96
+  winTitle: QUIT CONFIRM
+  winIcon: {fileID: 2800000, guid: f1ace7fbea966fa47a6cb297f24a73e0, type: 3}
+  curveJoinR: {fileID: 2800000, guid: de1b753b376f37b4cb23e41cf00375d8, type: 3}
+  curveJoinL: {fileID: 2800000, guid: 689904b2c9f1281448b88d019ad37036, type: 3}
+  ifConnected: 0
+  type: 2
+  rootNode: {fileID: 114190744976418196}
+  attributes:
+  - node: {fileID: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 45
+      width: 130
+      height: 17
+    txt: CANCEL
+  - node: {fileID: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 62
+      width: 130
+      height: 17
+    txt: QUIT
+  connectionType: 0
+--- !u!114 &114974633452512902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f97af0982a7cd2940937b5b8106b4fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  winRect:
+    serializedVersion: 2
+    x: 10
+    y: 186
+    width: 180
+    height: 60
+  winTitle: START
+  winIcon: {fileID: 2800000, guid: f1ace7fbea966fa47a6cb297f24a73e0, type: 3}
+  curveJoinR: {fileID: 2800000, guid: de1b753b376f37b4cb23e41cf00375d8, type: 3}
+  curveJoinL: {fileID: 2800000, guid: 689904b2c9f1281448b88d019ad37036, type: 3}
+  ifConnected: 1
+  type: 0
+  rootNode: {fileID: 0}
+  attributes: []
+  connectionType: 0

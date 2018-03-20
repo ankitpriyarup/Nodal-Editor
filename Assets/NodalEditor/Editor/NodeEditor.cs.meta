@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0974667f3dac2a64d94da511a25d732a
+timeCreated: 1512128185
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - skin: {fileID: 11400000, guid: 62a6e0526fa20f544995e61743b481a4, type: 2}
+  - nodeIcon: {fileID: 2800000, guid: f1ace7fbea966fa47a6cb297f24a73e0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
